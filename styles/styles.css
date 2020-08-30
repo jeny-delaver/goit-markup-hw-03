@@ -12,10 +12,6 @@
    
 }
 
-/* * {
-    outline: 1px solid tomato;
-   
-} */
 
 body {
     color: var(--primary-text-color);
@@ -38,6 +34,8 @@ body {
 .title {
     color: var(--title-text-color);
     margin-top: 0px;
+    margin-bottom: 0px;
+    
 }
 
 .container {
@@ -57,6 +55,7 @@ body {
     background-color: var(--primary-bg-color);
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .flex-wrap-container{
@@ -66,7 +65,6 @@ body {
 .nav-container{
     display: flex;
     align-items: center;
-    margin-right: 331px;
 }
 
 .nav-container .logo-header{
@@ -106,6 +104,8 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: block;
 }
 
 .site-nav .current {
@@ -115,6 +115,7 @@ body {
 .header-contacts {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .header-contacts > .item:not(:last-child) {
@@ -133,8 +134,7 @@ body {
 footer {
     background-color: var(--second-bg-color);
 
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px;
 }
 
 .logo-footer {
@@ -170,8 +170,6 @@ footer {
 }
 
 
-
-
 .address a:hover,
 .address a:focus,
 .site-nav .nav-link:hover,
@@ -187,8 +185,10 @@ footer {
 
 .hero {
     background-color: var(--second-bg-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
+
+    text-align: center;
+
+    padding: 200px 0px;
 }
 
 .hero-title {
@@ -227,7 +227,7 @@ footer {
 
 .advantages {
     background-color: var(--primary-bg-color);
-    padding: 94px 0px;
+    padding-top: 94px;
 }
 
 .list-advantages{
@@ -272,7 +272,6 @@ footer {
 }
 
 .list-competence > .item:not(:last-child){
-    display: inline-block;
     margin-right: 30px;
 }
 
@@ -302,18 +301,19 @@ footer {
     margin-right: 30px;
 }
 
+.list-team > .item {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+   
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em; 
 
-    /* margin-top: 0px; */
     margin-bottom: 50px;
-}
-
-.member-image{
-    margin-bottom: 30px;
 }
 
 .member-title {
@@ -324,7 +324,7 @@ footer {
     letter-spacing: 0.03em;
 
     margin-bottom: 10px;
-
+    margin-top: 30px;
 }
 
 .member-description {
@@ -346,8 +346,7 @@ footer {
 
 .projects {
     background-color: var(--primary-bg-color);
-    padding-top: 100px;
-    padding-bottom: 94px;
+    padding: 94px 0px;
 }
 
 .list-projects{
@@ -402,20 +401,15 @@ footer {
 }
 
 .list-project-examples > .item  .content {
+    margin: 20px 0px 20px 24px;
     text-align: left;
-}
-
-.example-image{
-    margin-bottom: 20px;
 }
 
 .example-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
     margin-bottom: 4px;
-    margin-left: 24px;
 }
 
 .example-description {
@@ -425,8 +419,6 @@ footer {
     line-height: 1.87;
     letter-spacing: 0.03em;
 
-    margin-top:  0px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+    margin: 0;
 }
 
